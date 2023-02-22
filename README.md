@@ -14,6 +14,9 @@ Script to add gapps and other stuff to waydroid !
 	sudo dnf install lzip sqlite
 ## openSUSE based distributions:
 	sudo zypper install lzip sqlite
+
+For all OS you have to have PIP of python installed on your machine
+
 Then run:
 	
     git clone https://github.com/casualsnek/waydroid_script
@@ -26,10 +29,15 @@ Then run:
 Open terminal and switch to directory where "main.py" is located then run:
 
     sudo python3 main.py -g
+   
+Then Run: 
+ 
+ waydroid init
 
 Then launch waydroid with:
 
     waydroid show-full-ui
+    
 After waydroid has finished booting open terminal and switch to directory where "main.py" is located then run:
 
     sudo python3 main.py -i
